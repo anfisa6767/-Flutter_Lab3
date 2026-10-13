@@ -13,6 +13,8 @@ void main() {
                 Colors.purpleAccent,
                 Colors.deepPurpleAccent,
               ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
             ),
           ),
           child: const Center(
