@@ -5,9 +5,19 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.pinkAccent,
-        body: const Center(
-          child: Text("Hello world!"),
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.pinkAccent,
+                Colors.purpleAccent,
+                Colors.deepPurpleAccent,
+              ],
+            ),
+          ),
+          child: const Center(
+            child: Text("Hello world!"),
+          ),
         ),
       ),
     ),
