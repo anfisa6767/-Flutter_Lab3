@@ -1,17 +1,33 @@
-# first_flutter_app
+# Лабораторная работа №3. Знакомство с Flutter
 
-A new Flutter project.
+Репозиторий содержит материалы лабораторной работы №3 по изучению кроссплатформенного фреймворка Flutter. В ходе работы было создано базовое веб-приложение с кастомным интерфейсом.
 
-## Getting Started
+## Информация об авторе
 
-This project is a starting point for a Flutter application.
+- **Имя:** Анфиса
+- **Группа:** ИСП-241
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Фреймворк:** Flutter 3.47.3
+- **Язык программирования:** Dart 3.13.3
+- **Платформа сборки:** Chrome
+- **Среда разработки:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![работающий код](img/step9_Иванова.png)
+
+## Запуск
+
+1. Клонировать репозиторий
+2. Перейти в папку проекта
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
+
+## Что изучили
+
+1. Познакомилась со структурой папок проекта Flutter и назначением конфигурационных файлов.
+2. Изучила фундаментальный принцип построения интерфейса через дерево виджетов.
+3. Научилась применять инструменты Hot Reload и Hot Restart для быстрой верстки UI.
+4. Разработала кастомный дизайн экрана с использованием линейного градиента и стилизации текста.
