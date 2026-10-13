@@ -2,8 +2,14 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Text("Hello world!"),
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgroundColor: Colors.pinkAccent,
+        body: const Center(
+          child: Text("Hello world!"),
+        ),
+      ),
     ),
   );
 }
